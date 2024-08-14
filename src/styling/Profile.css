@@ -1,0 +1,80 @@
+.profile{
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card{
+  width:30vw;
+  height: 60vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  background-color: rgb(243, 248, 248);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.profile-item{
+  padding: 5px;
+  display: flex; 
+}
+
+.profile-label{
+  padding-left: 2vh;
+  width: 10vw;
+}
+
+.profilelogo, .profile h2{
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2vh;
+}
+.profile-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+}
+.profile button,.feedback1 button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 15vw;
+}
+.profile button:hover {
+  font-weight: bold;
+}
+
+.dialog-box img{
+  object-fit: cover;
+  height: 20vh;
+  width: 20vw;
+  margin: 0.2vh;
+}
+
+.feedback1{
+  background-color: white;
+  border-radius: 10px;
+  height: 80vh;
+  width: 55vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.star-rating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: x-large;
+}

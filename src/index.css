@@ -1,0 +1,98 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  /* opacity: 100%; */
+  /* backdrop-filter: blur(10px); */
+}
+.background{
+  background-image: linear-gradient(to right, rgb(2, 2, 73), rgb(6, 6, 173));
+  width: 100vw;
+  height: 100vh;
+}
+/* .feedback{
+  padding: 10vh 20vw 0vh 20vw;
+  background-color: rgb(2, 2, 73);
+  width: 60vw;
+  height: 90vh;
+}
+
+.radio{
+  padding-right: 2vw;
+}
+.radio-group input{
+  width: 10px;
+} */
+
+/* .form-group{
+  padding: 1vh;
+  margin: 1vh;
+  width: 50vw;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.form-group:hover{
+  border: 2px solid rgb(2, 2, 73);
+} */
+
+/* .feedback-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.feedback-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+}
+
+.radio-group input {
+  margin-right: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+button {
+  display: block;
+  width: 100%; 
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */

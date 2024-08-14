@@ -1,0 +1,48 @@
+.dialog-box{
+  background-image: linear-gradient(to right, rgb(2, 2, 73), rgb(6, 6, 173));
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dialog{
+  background-color: white;
+  border-radius: 10px;
+  height: 60vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dialog input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  margin: 1vh;
+  width: 30vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.dialog button,.dialog input[type='submit']{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  margin: 1vh;
+  background-color: #007bff; 
+  color: white;
+  width: 10vw;
+}
+
+.dialog-box img{
+  object-fit: cover;
+  height: 20vh;
+  width: 20vw;
+  margin: 0.2vh;
+}

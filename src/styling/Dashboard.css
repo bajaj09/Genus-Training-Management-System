@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  padding-top: 10vh;
+}
+
+.chart-box{
+  margin-top: 5px;
+  background-color: rgb(237, 241, 242);
+  width: 27vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  padding-bottom: 0.5vw;
+  font-size: medium;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.chartfilter{
+  height: 200px;
+  padding-bottom: 20px;
+}
+
+.table{
+  width: 70vw;
+  margin-right: 1vw;
+  padding: 1vw;
+  background-color: rgb(237, 241, 242);
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+th, td {
+  padding: 10px; 
+  text-align: center;
+  background-color: white;
+  border: 1px solid #ddd; 
+  height: 0.5vh;
+}
+
+.feed-link {
+  background-color: transparent;
+  color: rgb(76, 76, 244);
+  text-decoration: underline;
+  font-size: medium;
+}
+
+.filter input,.filter select{
+  padding:0.5vw;
+  margin: 1vw;
+}
+
+.container input[type="submit"]{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 7vw;
+}
+
+.container input[type="submit"]:hover{
+  font-weight: bold;
+}
+
+.container input[type="submit"]:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
+
